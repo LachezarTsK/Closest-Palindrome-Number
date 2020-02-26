@@ -26,7 +26,7 @@ public class Solution {
 
     /**
      * Edge Case No 2.
-     * Input integer is "1" followed by one or more "0".
+     * Input integer is '1' followed by one or more '1'.
      */
     if (inputNumber % divisor == 0) {
       return inputNumber - 1;
