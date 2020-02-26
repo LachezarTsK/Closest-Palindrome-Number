@@ -82,9 +82,9 @@ public class Solution {
     /** 
      * Compare distances of edgeCase_three and normalCase. 
      */
-    int distance_one = Math.abs(secondHalf_mirrors_firstHalf - inputNumber);
+    int distance_one = Math.abs(normalCase - inputNumber);
     int distance_two = edgeCase_three - inputNumber;
-    int result = distance_one <= distance_two ? secondHalf_mirrors_firstHalf : edgeCase_three;
+    int result = distance_one <= distance_two ? normalCase : edgeCase_three;
 
     return result;
   }
