@@ -39,10 +39,10 @@ public class Solution {
      * mirror the digits of the first half of the original input integer. 
      * Such palindrome could be below as well as above the input integer.
      *
-     * Checking, by math means, whether the existing input integer (when it consists of more than
-     * one digit) is a palindrome requires approximately the same operations as finding the closest
-     * palindrome. Therefore, no such explicit checks are necessary. If the input integer is a
-     * palindrome, then the same integer will be returned.
+     * Checking, by math means, whether the input integer is a palindrome requires 
+     * approximately the same operations as finding the closest palindrome. 
+     * Therefore, no such explicit checks are necessary. 
+     * If the input integer is a palindrome, then the same integer will be returned.
      */
     int[] digits_closestPalindrome = new int[totalDigits];
     int length = digits_closestPalindrome.length;
