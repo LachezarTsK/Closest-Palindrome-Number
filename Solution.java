@@ -13,7 +13,7 @@ public class Solution {
   public static int find_closestPalindromeNumber(int inputNumber) {
 
    /** 
-    * Edge Case No 1. 
+    * Edge Case No 1. .
     * Input integer constists of one digit. 
     */
     if (inputNumber / 10 == 0) {
